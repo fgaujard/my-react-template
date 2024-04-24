@@ -1,0 +1,42 @@
+/*------------------------------------*/
+// Import your Config SCSS files here 
+/*------------------------------------*/
+
+@import "./config/mixins";
+@import "./config/reset";
+@import "./config/utilities";
+
+
+/*------------------------------------*/
+// Import Pages Styles here 
+/*------------------------------------*/
+
+@import "./pages/homepage";
+@import "./pages/contact";
+
+
+/*------------------------------------*/
+// Import Components Styles here
+/*------------------------------------*/
+
+@import "./components/navbar";
+@import "./components/footer";
+@import "./components/button";
+
+
+/*------------------------------------*/
+// Import Layouts Configs here
+/*------------------------------------*/
+
+
+@import "./layouts/header";
+@import "./layouts/section";
+@import "./layouts/gallery";
+
+
+/*------------------------------------*/
+// Import your Themes colors & typo here
+/*------------------------------------*/
+
+@import "./themes/light-mode";
+@import "./themes/dark-mode";
